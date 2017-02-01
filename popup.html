@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+  
+      #button {
+          background-color: #555555;
+          border: none;
+          color: white;
+          text-align: center;
+          display: inline-block;
+          font-size: 14px;
+          border-radius: 4px;
+          padding: 6px 14px;
+          position: relative;
+          top: 5px;
+          left: 130px;
+
+        }
+
+      body {
+        min-width: 300px;
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+    
+  
+    <script src="popup.js"></script>
+  </head>
+  <body>
+
+  <table>
+
+   <tr>
+    <th>Sellers</th>
+   </tr>
+
+   <tr>
+     <td id = 'price'></td>
+   </tr>  
+   
+  <table>
+
+  <input type="button" id="button" value="Copy">
+
+  </body>
+</html>
+
