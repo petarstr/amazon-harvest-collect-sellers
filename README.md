@@ -1,5 +1,5 @@
 # amazon-harvest-collect-sellers-live
-Collects all sellers and prices for Amazon products
+Google Chrome extension. Collects all sellers and prices for Amazon products
 
 Go to the sellers page of a specific product on Amazon.com and click on the extension icon. 
 It will automatically collect all the sellers and their prices from that page. 
